@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace p4ela
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Book book = new Book("Война и мир", 1200);
+            book.Read();
+            Book book1 = new Book("1984");
+            book1.Read();
+            Book book2 = new Book();
+            book2.Read();
+        }
+    }
+}
