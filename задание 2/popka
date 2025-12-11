@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace p4ela
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Employee emp1 = new Employee("Иван", 80000);
+            Employee emp2 = new Employee("Анна");
+
+            emp1.Work();
+            emp2.Work();
+
+            Employee testEmp = new Employee("Тест", -1000);
+            testEmp.Work();
+        }
+    }
+}
